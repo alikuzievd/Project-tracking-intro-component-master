@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.box-1 {
+    position: absolute;
+    z-index: -10;
+    left: 735px;
+    width: 705px;
+    height: 427px;
+    background: #EDF2F6;
+    border-radius: 0px 0px 0px 60px;
+}
+.flex {
+    display: flex;
+}
+.logo {
+    margin-top: 64px;
+    margin-left: 165px;
+}
+.p1 {
+    height: 18px;    
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 1px;
+    color: #242942;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover {
+        text-decoration-line: underline;
+    }
+}
+.p-2 {
+    margin-left: 42px;
+}
+.p-3 {
+    margin-left: 41px;
+}
+.box-2 {
+    margin-left: 40px;
+    margin-top: 7.57px;
+    background: #242942;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+.p-4 {
+    margin-left: 47px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.illustration {
+    margin-top: 124px;
+    margin-left: 108px;
+}
+.box-3 {
+    position: absolute;
+    z-index: 10;
+    top: 71px;
+    left: 896px;
+}
+.box-4 {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 25px;
+    margin-top: 162px;
+    margin-left: 165px;
+    background: #242942;
+    border-radius: 12.5px;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.p-5 {
+    margin-top: 165px;
+    margin-left: 15px;
+    height: 18px;
+    width: 220px;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 5px;
+    color: #242942;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+.p-6 {
+    margin-top: 16px;
+    margin-left: 165px;
+    width: 475px;
+    height: 128px;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color: #242942;
+    text-transform: uppercase;
+}
+.p-7 {
+    margin-top: 32px;
+    margin-left: 165px;
+    width: 267px;
+    height: 52px;    
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #242942;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+.btn {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF5E5E;
+    border-radius: 5px;
+    width: 184px;
+    height: 48px;
+    margin-top: 64px;
+    margin-left: 165px;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: 1.06667px;
+    color: #FFFFFF;    
+    text-transform: uppercase;
+    &:hover {
+        opacity: 0.75;
+    }
+}
+.p-8 {
+    margin-top: 79px;
+    margin-left: 24px;
+    height: 18px;    
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 5px;
+    color: #242942;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+.hamburger, .close {
+    display: none;
+}
+@media screen and (max-width: 377px) {
+    .box-1 {
+        left: 188px;
+        width: 319px;
+        height: 425px;
+    }
+    .hamburger, .close {
+        display: block;
+        position: absolute;
+        top: 42px;
+        left: 319px;
+    }
+    .close {
+        display: none;
+    }
+    .logo {
+        margin-top: 38px;
+        margin-left: 32px;
+    }
+    .illustration {
+        position: absolute;
+        width: 482px;
+        height: 239px;
+        top: 126px;
+        left: 32px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .box-4 {
+        width: 48px;
+        height: 25px;
+        margin-top: 390px;
+        margin-left: 32px;
+    }
+    .p-5 {
+        margin-top: 393px;
+        margin-left: 16px;
+    }
+    .p-6 {
+        margin-left: 32px;
+        width: 311px;
+        height: 80px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .p-7 {
+        margin-top: 16px;
+        margin-left: 32px;
+    }
+    .btn {
+        width: 153px;
+        height: 40px;
+        margin-top: 27px;
+        margin-left: 32px;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.933333px;   
+    }
+    .p-8 {
+        margin-top: 39px;
+        margin-left: 20px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 2.5px;
+    }    
+    .p1 {
+        height: 22px;    
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 1.2px;
+    }
+    .p-1, .p-2, .p-3, .p-4 {
+        margin-top: 24px;
+        margin-left: 0px;
+    }
+    .box-2 {
+        margin-left: 24px;
+        margin-top: 24px;
+        width: 263px;
+        height: 1px;
+        border-radius: 0;
+    }
+    .box-3 {
+        width: 311px;
+        height: 233px;
+        top: 100px;
+        left: 32px;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 3px;
+        flex-direction: column;
+    }
+}
